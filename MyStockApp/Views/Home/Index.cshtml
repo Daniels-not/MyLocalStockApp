@@ -1,0 +1,74 @@
+﻿@using MyStockApp.Core.Application.ViewModels.Products;
+@using MyStockApp.Core.Application.ViewModels.Categories;
+@using Microsoft.AspNetCore.Http
+@using MyStockApp.Core.Application.Helpers;
+@using MyStockApp.Core.Application.ViewModels.User
+@inject IHttpContextAccessor httpContextAccessor
+@model List<ProductViewModel>
+@{
+    var User = httpContextAccessor.HttpContext.Session.Get<UserViewModel>("user");
+    ViewData["Title"] = "Home Page";
+}
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 class="mb-3 text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+        <form method="post" asp-controller="Home" asp-action="Index">
+            <div class="relative mb-3">
+            <label for="default-search" class="mb-2 text-sm font-medium  sr-only dark:text-gray-300">Search</label>
+                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                    <svg aria-hidden="true" class="w-5 h-5 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <input type="search" name="Name" id="default-search" class="border-gray-300 block p-4 pl-10 w-full text-sm rounded-lg border focus:ring-blue-500 focus:border-blue-500" placeholder="Search by name ">
+            </div>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input name="CategoryId" id="category-all" type="checkbox" value="0" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    <label for="category-all" class="py-4 ml-2 w-full text-sm font-medium">All categories</label>
+                </div>
+                @foreach (CategoryViewModel filter in ViewBag.Categories)
+                {
+                    <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                        <input value="@filter.Id" type="checkbox" name="CategoryId" id="category-@filter.Id" class="w-4 h-4 text-blue bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="category-@filter.Id" class="py-4 ml-2 w-full text-sm font-medium">@filter.Name</label>
+                    </div>
+                }
+            </div>
+            <button type="submit" class="mt-2 flex items-center justify-center w-full px-2 py-1 text-white transition-colors duration-300 transform bg-blue-600 rounded-md focus:outline-none sm:w-auto sm:mx-1 hover:bg-blue-500 focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-40">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                </svg>
+                <span class="mx-1">
+                    Filter by category
+                </span>
+            </button>
+        </form>
+        @if (Model == null || Model.Count == 0)
+        {
+            <h2>No products added yet.</h2>
+        } else {
+            foreach (ProductViewModel product in Model)
+            {
+                <div class="mt-4 container">
+                    <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@product.Id">
+                        <div class="group relative">
+                                <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                                    <img src="@product.ImageUrl" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                                </div>
+                                <div class="mt-4 flex justify-between">
+                                    <div>
+                                        <h3 class="text-sm text-gray-700">
+                                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                                @product.Name
+                                        </h3>
+                                        <p class="mt-1 text-sm text-gray-500">@product.CategoryName</p>
+                                    </div>
+                                    <p class="text-sm font-medium text-gray-900">$@product.Price</p>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        }
+    </div>
+</div>

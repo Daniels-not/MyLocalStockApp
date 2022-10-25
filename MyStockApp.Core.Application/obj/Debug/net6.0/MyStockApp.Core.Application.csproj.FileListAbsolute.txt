@@ -1,0 +1,15 @@
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\bin\Debug\net6.0\MyStockApp.Core.Application.deps.json
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\bin\Debug\net6.0\MyStockApp.Core.Application.dll
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\bin\Debug\net6.0\MyStockApp.Core.Application.pdb
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\bin\Debug\net6.0\MyStockApp.Core.Domain.dll
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\bin\Debug\net6.0\MyStockApp.Core.Domain.pdb
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.csproj.AssemblyReference.cache
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.AssemblyInfoInputs.cache
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.AssemblyInfo.cs
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.csproj.CoreCompileInputs.cache
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.csproj.CopyComplete
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.dll
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\refint\MyStockApp.Core.Application.dll
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\MyStockApp.Core.Application.pdb
+D:\VSCODE\.NET\MyStockApp\MyStockApp\MyStockApp.Core.Application\obj\Debug\net6.0\ref\MyStockApp.Core.Application.dll

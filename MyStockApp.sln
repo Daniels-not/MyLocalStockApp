@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStockApp", "MyStockApp\MyStockApp.csproj", "{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1FA7A14F-B6A7-4DE9-AC9A-D20491E7C67B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{D3BF37CF-0826-4CFB-A642-96656188E19C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C8416E4A-30F8-4CD3-8AD5-8792A997F4C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DA4BB814-E8BB-41EA-A789-009B4F4516AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0037C654-6AB6-44D8-8A47-6456967A37A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStockApp.Core.Application", "MyStockApp.Core.Application\MyStockApp.Core.Application.csproj", "{42E2A467-B493-4912-A8AC-DAC129BB4F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStockApp.Core.Domain", "MyStockApp.Core.Domain\MyStockApp.Core.Domain.csproj", "{B639336D-BCBA-480B-81D0-D8EEA3ADFF38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyStockApp.Infrastucture.Persistence", "MyStockApp.Infrastucture.Persistence\MyStockApp.Infrastucture.Persistence.csproj", "{D859196E-A068-4D92-A4F8-375BFFFDC943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E2A467-B493-4912-A8AC-DAC129BB4F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E2A467-B493-4912-A8AC-DAC129BB4F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E2A467-B493-4912-A8AC-DAC129BB4F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E2A467-B493-4912-A8AC-DAC129BB4F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B639336D-BCBA-480B-81D0-D8EEA3ADFF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B639336D-BCBA-480B-81D0-D8EEA3ADFF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B639336D-BCBA-480B-81D0-D8EEA3ADFF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B639336D-BCBA-480B-81D0-D8EEA3ADFF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D859196E-A068-4D92-A4F8-375BFFFDC943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D859196E-A068-4D92-A4F8-375BFFFDC943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D859196E-A068-4D92-A4F8-375BFFFDC943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D859196E-A068-4D92-A4F8-375BFFFDC943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9762B96A-4A9F-4AF0-809E-CC9CE9A43E61} = {D3BF37CF-0826-4CFB-A642-96656188E19C}
+		{1FA7A14F-B6A7-4DE9-AC9A-D20491E7C67B} = {C8416E4A-30F8-4CD3-8AD5-8792A997F4C3}
+		{D3BF37CF-0826-4CFB-A642-96656188E19C} = {1FA7A14F-B6A7-4DE9-AC9A-D20491E7C67B}
+		{DA4BB814-E8BB-41EA-A789-009B4F4516AC} = {C8416E4A-30F8-4CD3-8AD5-8792A997F4C3}
+		{0037C654-6AB6-44D8-8A47-6456967A37A4} = {C8416E4A-30F8-4CD3-8AD5-8792A997F4C3}
+		{42E2A467-B493-4912-A8AC-DAC129BB4F8E} = {DA4BB814-E8BB-41EA-A789-009B4F4516AC}
+		{B639336D-BCBA-480B-81D0-D8EEA3ADFF38} = {DA4BB814-E8BB-41EA-A789-009B4F4516AC}
+		{D859196E-A068-4D92-A4F8-375BFFFDC943} = {0037C654-6AB6-44D8-8A47-6456967A37A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D6C6BC8-039A-4060-A68C-FE34438DCCED}
+	EndGlobalSection
+EndGlobal

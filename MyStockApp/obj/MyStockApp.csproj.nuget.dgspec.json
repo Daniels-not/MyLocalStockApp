@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp\\MyStockApp.csproj": {}
+  },
+  "projects": {
+    "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj",
+        "projectName": "MyStockApp.Core.Application",
+        "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj",
+        "projectName": "MyStockApp.Core.Domain",
+        "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\MyStockApp.Infrastucture.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\MyStockApp.Infrastucture.Persistence.csproj",
+        "projectName": "MyStockApp.Infrastucture.Persistence",
+        "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\MyStockApp.Infrastucture.Persistence.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj"
+              },
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp\\MyStockApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp\\MyStockApp.csproj",
+        "projectName": "MyStockApp",
+        "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp\\MyStockApp.csproj",
+        "packagesPath": "C:\\Users\\ramyc\\.nuget\\packages\\",
+        "outputPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Application\\MyStockApp.Core.Application.csproj"
+              },
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Core.Domain\\MyStockApp.Core.Domain.csproj"
+              },
+              "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\MyStockApp.Infrastucture.Persistence.csproj": {
+                "projectPath": "D:\\VSCODE\\.NET\\MyStockApp\\MyStockApp\\MyStockApp.Infrastucture.Persistence\\MyStockApp.Infrastucture.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
